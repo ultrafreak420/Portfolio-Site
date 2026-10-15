@@ -1,18 +1,25 @@
 .banner {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -80px;
+    margin: -80px auto 0;
     width: 100%;
 }
 
-.body,
-.list {
+.icon {
+    display: block;
+    margin: -25px auto 0;
+    width: 50%;
+}
+
+.body {
     text-align: center;
 }
 
-.article {
+.article,
+.listitem {
     font-size: 10px;
+}
+
+.article {
     margin-top: 20px;
     text-align: center;
 }
@@ -26,18 +33,36 @@ ul.myUL {
     text-align: left;
 }
 
-.listitem {
-    font-size: 10px;
-}
 .item {
-    font-size: 150%
+    font-size: 150%;
 }
+
 .itembig {
-    font-size: 300%
+    font-size: 300%;
 }
+
 .darkmode {
     background-color: #17030f;
 }
+
 .text {
-    color: #890b31
+    color: #890b31;
+}
+
+.itemminibig {
+    font-size: 200%;
+}
+
+.textbig {
+    color: #e2517a;
+}
+
+.label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
