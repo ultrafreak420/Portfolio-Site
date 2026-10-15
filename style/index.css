@@ -35,3 +35,9 @@ ul.myUL {
 .itembig {
     font-size: 300%
 }
+.darkmode {
+    background-color: #17030f;
+}
+.text {
+    color: #890b31
+}
