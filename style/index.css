@@ -29,3 +29,9 @@ ul.myUL {
 .listitem {
     font-size: 10px;
 }
+.item {
+    font-size: 150%
+}
+.itembig {
+    font-size: 300%
+}
