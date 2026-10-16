@@ -65,6 +65,7 @@ ul.myUL {
 .gridcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: auto 0;
 }
 
 .navbutton {
